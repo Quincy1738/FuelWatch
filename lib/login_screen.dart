@@ -112,6 +112,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 onPressed: _login,
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.black,
+                  foregroundColor: Colors.white, // This sets the text/icon color
                   minimumSize: const Size(double.infinity, 50),
                 ),
                 child: const Text('Sign In'),
